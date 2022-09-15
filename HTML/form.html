@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inscrição SENAC-PR</title>
+</head>
+<body>
+    <header>
+
+    </header>
+    <main>
+        <section style="margin-top: 100px; margin-left: 200px;">
+        <h1>Senac - PR</h1>
+        <h2>Inscrição processo seletivo Menor Aprendiz</h2>
+        </section>
+        <form action="./sequence.html"style="margin-left: 300px; margin-right: 1200px;">
+            <fieldset>
+            <legend><h4>Dados pessoais:</h4></legend>
+            <label for="name">Nome:</label> <br>
+            <input type="text" required>
+            <br> <br>
+            <label for="dataNascimento">Data de nascimento:</label> <br>
+            <input type="data" placeholder="dd/mm/aaaa" required>
+            <br> <br>
+            <label for="cpf">CPF:</label> <br>
+            <input type="text" placeholder="___.___.___-__" required>
+            <br> <br>
+            <label for="Sexo">Sexo:</label> <br>
+            <input type="radio" name="Sexo" required> <label for="Sexo">Feminino</label>
+            <input type="radio" name="Sexo" required> <label for="Sexo">Masculino</label>
+            <input type="radio" name="Sexo" required> <label for="Sexo">Prefiro não dizer</label>
+            <br><br>
+        </fieldset>
+            <fieldset>
+            <legend><h4>Endereço:</h4></legend>
+            <label for="endereço">CEP:</label> <br>
+            <input type="text" required>
+            <br> <br>
+            <label for="endereço-rua">Logradouro:</label> <br>
+            <input type="text" required>
+            <label for="endereço-rua-numero" style="margin-left:20px;">Nº</label>
+            <input type="number" style="max-width: 70px; " required>
+            <br> <br>
+            <label for="endereço-bairro">Bairro:</label> <br>
+            <input type="text" required>
+            <br> <br>
+            <label for="endereço-cidade">Cidade:</label> <br>
+            <input type="text" required>
+            <br> <br>
+            <label for="endereço-estado">Estado:</label> <br>
+            <select name="endereço" required> 
+                <option value="AC">Acre</option>
+                <option value="AL">Alagoas</option>
+                <option value="AP">Amapá</option>
+                <option value="AM">Amazonas</option>
+                <option value="BA">Bahia</option>
+                <option value="CE">Ceará</option>
+                <option value="DF">Distrito Federal</option>
+                <option value="ES">Espírito Santo</option>
+                <option value="GO">Goiás</option>
+                <option value="MA">Maranhão</option>
+                <option value="MT">Mato Grosso</option>
+                <option value="MS">Mato Grosso do Sul</option>
+                <option value="MG">Minas Gerais</option>
+                <option value="PA">Pará</option>
+                <option value="PB">Paraíba</option>
+                <option value="PR">Paraná</option>
+                <option value="PE">Pernambuco</option>
+                <option value="PI">Piauí</option>
+                <option value="RJ">Rio de Janeiro</option>
+                <option value="RN">Rio Grande do Norte</option>
+                <option value="RS">Rio Grande do Sul</option>
+                <option value="RO">Rondônia</option>
+                <option value="RR">Roraima</option>
+                <option value="SC">Santa Catarina</option>
+                <option value="SP">São Paulo</option>
+                <option value="SE">Sergipe</option>
+                <option value="TO">Tocantins</option>
+            </select>
+        </fieldset>
+        <fieldset>
+            <legend><h4>Dados de login:</h4></legend>
+            <label for="email">E-mail:</label> <br>
+            <input type="email" required>
+            <br> <br>
+            <label for="senha">Senha:</label> <br>
+            <input type="text" required>
+            <br> <br>
+            <label for="img-perfil">Imagem de perfil:</label> <br> <br>
+            <input type="file" required>
+            <br> <br>
+        </fieldset>
+            <button type="submit" style="margin-top: 30px;">Inscreva-se</button>
+        </form>
+    </main>
+    <footer>
+
+    </footer>
+</body>
+</html>
